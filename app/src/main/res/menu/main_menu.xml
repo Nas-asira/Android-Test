@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+
+            />
+
+        <item
+            android:id="@+id/CardView"
+            android:title="Location Analysis"
+            android:icon="@drawable/location_icon"
+            />
+
+        <item
+            android:id="@+id/route"
+            android:title="Route Optimizer"
+            android:icon="@drawable/route_icon"
+            />
+
+        <item
+            android:id="@+id/geo"
+            android:title="GeoAnalysis Tool"
+            android:icon="@drawable/geo_icon"
+            />
+
+    </group>
+
+
+
+        <item android:title="Profile">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_icon"
+                    />
+
+                <item
+                    android:id="@+id/settings"
+                    android:title="Settings"
+                    android:icon="@drawable/settings_icon"
+                    />
+
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout_icon"
+                    />
+
+                <item
+                    android:id="@+id/login"
+                    android:title="LogIn"
+                    android:icon="@drawable/logout_icon"
+                    />
+                </group>
+            </menu>
+
+        </item>
+
+    <item android:title="Network ">
+
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/share_icon"
+                />
+            <item
+            android:id="@+id/rate"
+            android:title="Rate Us"
+            android:icon="@drawable/rate_icon"
+            />
+
+        </menu>
+    </item>
+
+</menu>
